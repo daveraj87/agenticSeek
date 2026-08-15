@@ -37,6 +37,17 @@ Ensure your changes work as expected and do not break existing functionality.
 
 Push your changes to your fork and submit a pull request to the main branch of this repository. Provide a clear description of your changes and reference any related issues.
 
+## Agent skills
+
+This repo ships a set of [Vercel Agent Skills](https://github.com/vercel-labs/skills) under `.claude/skills/`, installed via `npx skills`. They give Claude Code extra guidance for reviewing the React frontend (`vercel-composition-patterns`, `vercel-react-best-practices`, `web-design-guidelines`) and this repo's docs (`writing-guidelines`) — they're picked up automatically when a matching task comes up, no setup needed.
+
+To update them to the latest version, or add more from the [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) catalog:
+
+```bash
+npx skills update            # refresh installed skills
+npx skills add vercel-labs/agent-skills --agent claude-code --list   # browse the full catalog
+```
+
 ## Good practice
 
 1. **Privacy First, Always Local**
