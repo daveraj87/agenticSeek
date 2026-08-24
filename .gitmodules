@@ -1,0 +1,3 @@
+[submodule "money-printer-turbo"]
+	path = money-printer-turbo
+	url = https://github.com/harry0703/MoneyPrinterTurbo.git
