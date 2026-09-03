@@ -44,48 +44,49 @@
   --radius: 0.5rem;
 }
 
+/* Save It Somewhere palette: Night / Cream / Harbor / Ember (see public/branding/BRAND.md) */
 [data-theme="dark"] {
-  --background: #0a0a0a;
-  --foreground: #fafafa;
-  --card: #1a1a1a;
-  --card-foreground: #fafafa;
-  --popover: #1a1a1a;
-  --popover-foreground: #fafafa;
-  --primary: #fafafa;
-  --primary-foreground: #0a0a0a;
-  --secondary: #2a2a2a;
-  --secondary-foreground: #fafafa;
-  --muted: #1e1e1e;
-  --muted-foreground: #a1a1aa;
-  --accent: #6b7280;
+  --background: #0e1f21;
+  --foreground: #f6f2e9;
+  --card: #16302f;
+  --card-foreground: #f6f2e9;
+  --popover: #16302f;
+  --popover-foreground: #f6f2e9;
+  --primary: #f6f2e9;
+  --primary-foreground: #0e1f21;
+  --secondary: #1f3b3c;
+  --secondary-foreground: #f6f2e9;
+  --muted: #16302f;
+  --muted-foreground: #8fa9a6;
+  --accent: #2e7f86;
   --accent-foreground: #ffffff;
   --destructive: #ef4444;
   --destructive-foreground: #ffffff;
-  --border: #333333;
-  --input: #333333;
-  --ring: #6b7280;
+  --border: #24403f;
+  --input: #24403f;
+  --ring: #2e7f86;
 }
 
 [data-theme="light"] {
-  --background: #ffffff;
-  --foreground: #0a0a0a;
+  --background: #f6f2e9;
+  --foreground: #12272a;
   --card: #ffffff;
-  --card-foreground: #0a0a0a;
+  --card-foreground: #12272a;
   --popover: #ffffff;
-  --popover-foreground: #0a0a0a;
-  --primary: #0a0a0a;
-  --primary-foreground: #ffffff;
-  --secondary: #f5f5f5;
-  --secondary-foreground: #0a0a0a;
-  --muted: #f5f5f5;
-  --muted-foreground: #737373;
-  --accent: #6b7280;
+  --popover-foreground: #12272a;
+  --primary: #1c4d52;
+  --primary-foreground: #f6f2e9;
+  --secondary: #dce8e5;
+  --secondary-foreground: #12272a;
+  --muted: #ece7dc;
+  --muted-foreground: #5b7275;
+  --accent: #1c4d52;
   --accent-foreground: #ffffff;
   --destructive: #ef4444;
   --destructive-foreground: #ffffff;
-  --border: #e5e5e5;
-  --input: #e5e5e5;
-  --ring: #6b7280;
+  --border: #dce8e5;
+  --input: #dce8e5;
+  --ring: #1c4d52;
 }
 
 * {
