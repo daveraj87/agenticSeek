@@ -291,8 +291,8 @@ body {
 }
 
 .section-tabs button.active {
-  background-color: #0066cc; /* primary */
-  color: #ffffff; /* white */
+  background-color: var(--accent);
+  color: var(--accent-foreground);
 }
 
 .section-tabs button:hover:not(.active) {

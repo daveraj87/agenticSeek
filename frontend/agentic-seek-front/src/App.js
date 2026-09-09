@@ -4,11 +4,13 @@ import axios from "axios";
 import "./App.css";
 import { ThemeToggle } from "./components/ThemeToggle";
 import { ResizableLayout } from "./components/ResizableLayout";
+import { useTheme } from "./contexts/ThemeContext";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 console.log("Using backend URL:", BACKEND_URL);
 
 function App() {
+  const { isDark } = useTheme();
   const [query, setQuery] = useState("");
   const [messages, setMessages] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -204,7 +206,11 @@ function App() {
       <header className="header">
         <div className="header-brand">
           <div className="logo-container">
-            <img src="/branding/svg/icon.svg" alt="Save It Somewhere" className="logo-icon" />
+            <img
+              src={isDark ? "/branding/svg/icon-dark.svg" : "/branding/svg/icon.svg"}
+              alt="Save It Somewhere"
+              className="logo-icon"
+            />
           </div>
           <div className="brand-text">
             <h1>Save It Somewhere</h1>

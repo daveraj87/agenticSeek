@@ -1,71 +1,73 @@
+// Save It Somewhere brand palette. Source of truth: public/branding/BRAND.md
 export const colors = {
-  // Primary colors - Save It Somewhere brand (Teal Calm)
-  primary: "#2D6E6E",
-  primaryLight: "#E8F4F3",
-  primaryDark: "#1F4F4F",
+  // Primary: Harbor (the tile)
+  primary: "#1C4D52",
+  primaryLight: "#DCE8E5",
+  primaryDark: "#12363A",
 
-  // Secondary colors - modern grays
-  secondary: "#64748b",
-  secondaryLight: "#f1f5f9",
-  secondaryDark: "#1e293b",
+  // Secondary: Mist surfaces and Slate text
+  secondary: "#5B7275",
+  secondaryLight: "#DCE8E5",
+  secondaryDark: "#3F5B5E",
 
-  // Accent colors - Save It Somewhere warm gold
-  accent: "#C4A96E",
-  accentLight: "#E8DCC0",
-  accentDark: "#9D8555",
+  // Accent: Ember (the dot). Graphics, status, large text only on light surfaces.
+  accent: "#CF6A3C",
+  accentLight: "#F3D9C9",
+  accentDark: "#A9522A",
 
   // Status colors
   success: "#10b981",
   successLight: "#d1fae5",
-  warning: "#f59e0b",
-  warningLight: "#fef3c7",
+  warning: "#CF6A3C",
+  warningLight: "#F3D9C9",
   error: "#ef4444",
   errorLight: "#fee2e2",
-  info: "#06b6d4",
-  infoLight: "#cffafe",
+  info: "#2E7F86",
+  infoLight: "#DCE8E5",
 
-  // Neutral colors - modern palette
+  // Neutral colors, warm
   white: "#ffffff",
-  gray50: "#f8fafc",
-  gray100: "#f1f5f9",
-  gray200: "#e2e8f0",
-  gray300: "#cbd5e1",
-  gray400: "#94a3b8",
-  gray500: "#64748b",
-  gray600: "#475569",
-  gray700: "#334155",
-  gray800: "#1e293b",
-  gray900: "#0f172a",
+  gray50: "#F6F2E9",
+  gray100: "#ECE7DC",
+  gray200: "#DCE8E5",
+  gray300: "#C2D2CF",
+  gray400: "#8FA9A6",
+  gray500: "#5B7275",
+  gray600: "#3F5B5E",
+  gray700: "#24403F",
+  gray800: "#16302F",
+  gray900: "#0E1F21",
   black: "#000000",
 
   // Text colors
-  textPrimary: "#1F1F1F",
-  textSecondary: "#64748b",
-  textDisabled: "#94a3b8",
+  textPrimary: "#12272A",
+  textSecondary: "#5B7275",
+  textDisabled: "#8FA9A6",
 
-  // Background colors - Save It Somewhere brand
-  background: "#FAFBF8",
+  // Background colors
+  background: "#F6F2E9",
   card: "#ffffff",
 
   // Border colors
-  border: "#e2e8f0",
-  divider: "#f1f5f9",
+  border: "#DCE8E5",
+  divider: "#ECE7DC",
 
   // Transparent colors
   transparent: "transparent",
-  semiTransparent: "rgba(15, 23, 42, 0.6)",
+  semiTransparent: "rgba(18, 39, 42, 0.6)",
 
   // Dark theme colors
-  darkBackground: "#0F0F0F",
-  darkCard: "#1e293b",
-  darkBorder: "#334155",
-  darkText: "#FAFBF8",
-  darkTextSecondary: "#cbd5e1",
+  darkBackground: "#0E1F21",
+  darkCard: "#16302F",
+  darkBorder: "#24403F",
+  darkText: "#F6F2E9",
+  darkTextSecondary: "#8FA9A6",
 
-  // Brand specific colors
-  brandTeal: "#2D6E6E",
-  brandTealLight: "#E8F4F3",
-  brandGold: "#C4A96E",
-  brandNeutralDark: "#1F1F1F",
-  brandNeutralLight: "#FAFBF8",
+  // Brand names
+  brandHarbor: "#1C4D52",
+  brandEmber: "#CF6A3C",
+  brandInk: "#12272A",
+  brandCream: "#F6F2E9",
+  brandMist: "#DCE8E5",
+  brandNight: "#0E1F21",
 };
