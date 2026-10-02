@@ -1,0 +1,38 @@
+# Obsidian Settings (local-only, don't sync)
+.obsidian/
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+
+# Virtual environments
+venv/
+env/
+
+# Large files (sync manually or use LFS)
+*.pdf
+*.mp4
+*.wav
+*.mov
+
+# Staging area - raw PDFs only (markdown-output is tracked)
+staging/
+!staging/markdown-output/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Session-specific temp files
+*.tmp
+*.bak
+
